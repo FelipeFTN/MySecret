@@ -1,11 +1,11 @@
 require_relative "handler/note"
 
+valid_options = [1, 2, 3]
+
 puts "==== MySecret ===="
-
-valid_options = [1, 2]
-
 puts "[1] Create new note"
 puts "[2] Read a note"
+puts "[3] Encrypt an existing note"
 
 print "> "
 option = gets.chomp.to_i
@@ -27,6 +27,6 @@ if option == 1
   write_note(file_path, secret_key)
 elsif option == 2
   read_note(file_path, secret_key)
-else
-  puts "error: invalid option"
+elsif option == 3
+  encrypt_note(file_path, secret_key)
 end
