@@ -51,3 +51,11 @@ def encrypt_note(file_path, secret_key)
 
   write_file(file_path, encoded_data)
 end
+
+def decrypt_note(file_path, secret_key)
+  data = read_file(file_path)
+  decoded_data = decode(data)
+  decrypted_data = decrypt(decoded_data, secret_key)
+  
+  write_file(file_path, decrypted_data)
+end
