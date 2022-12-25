@@ -21,9 +21,7 @@ def decrypt(data, secret_key)
 end
 
 def hasher(secret, limit_chars)
-  print "#{secret}: "
   secret = Digest::SHA256.hexdigest secret
   secret = secret[0, limit_chars]
-  puts "#{secret}"
   return secret
 end

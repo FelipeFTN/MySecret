@@ -1,8 +1,9 @@
+require_relative "handler/system"
 require_relative "handler/note"
 
 valid_options = [1, 2, 3]
 
-puts "==== MySecret ===="
+puts "========== MySecret =========="
 puts "[1] Create new note"
 puts "[2] Read a note"
 puts "[3] Encrypt an existing note"

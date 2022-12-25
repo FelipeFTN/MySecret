@@ -8,6 +8,7 @@ end
 def get_text_editor()
   text_editors = ["vi", "vim", "nvim", "nano"]
 
+  puts "================================="
   puts "Select your favorite text editor:"
   puts "[0] VI" 
   puts "[1] VIM" 
