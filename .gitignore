@@ -1,2 +1,5 @@
 # Ignore secret notes
 notes/*
+
+# Text editor configuration file
+editor.config

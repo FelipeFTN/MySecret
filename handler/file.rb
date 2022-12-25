@@ -5,7 +5,7 @@ def read_file(file_path)
     return data
   else
     puts "error: not able to access the file"
-    return ""
+    return false
   end
 end
 
