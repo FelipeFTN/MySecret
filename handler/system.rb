@@ -1,12 +1,5 @@
 require_relative "file"
 
-def get_path()
-  print "file number: "
-  index = gets.chomp
-  directory = "./notes/#{index}.txt"
-  return directory
-end
-
 def get_text_editor()
   text_editors = ["vi", "vim", "nvim", "nano"]
 

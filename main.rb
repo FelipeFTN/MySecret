@@ -9,11 +9,12 @@ notes.each do |note|
 end
 
 # Display menu options
-valid_options = [1, 2, 3]
+valid_options = [1, 2, 3, 4]
 puts "\n========== MySecret =========="
 puts "[1] Create new note"
 puts "[2] Read a note"
-puts "[3] Encrypt an existing note"
+puts "[3] Edit a note"
+puts "[4] Encrypt an existing note"
 
 print "> "
 option = gets.chomp.to_i
@@ -38,5 +39,7 @@ if option == 1
 elsif option == 2
   read_note(file_path, secret_key)
 elsif option == 3
+  edit_note(file_path, secret_key)
+elsif option == 4
   encrypt_note(file_path, secret_key)
 end
