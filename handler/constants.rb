@@ -1,1 +1,1 @@
-AES_IV = "++++MySecret++++"
+AES_IV = "MySecret"
