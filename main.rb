@@ -3,7 +3,16 @@ require_relative "handler/note"
 
 valid_options = [1, 2, 3]
 
-puts "========== MySecret =========="
+
+# List notes
+notes = Dir.glob("notes/*")
+print "notes: "
+notes.each do |note|
+  print "#{note.gsub! "notes/", ""}; "
+end
+
+# Display menu options
+puts "\n========== MySecret =========="
 puts "[1] Create new note"
 puts "[2] Read a note"
 puts "[3] Encrypt an existing note"
@@ -17,6 +26,7 @@ if is_valid == false
   return
 end
 
+# Select file & secret key
 print "file name: "
 file_name = gets.chomp
 file_path = "notes/#{file_name}"
@@ -24,6 +34,7 @@ file_path = "notes/#{file_name}"
 print "secret key: "
 secret_key = gets.chomp
 
+# Handle options
 if option == 1
   write_note(file_path, secret_key)
 elsif option == 2

@@ -23,7 +23,8 @@ def read_note(file_path, secret_key)
   write_file(temp_file, decrypted_data)
 
   editor = get_text_editor()
-  execute("#{editor} #{temp_file}", true)
+  execute("#{editor} #{temp_file}")
+  execute("rm #{temp_file}")
 end
 
 def encrypt_note(file_path, secret_key)
@@ -32,5 +33,4 @@ def encrypt_note(file_path, secret_key)
   encrypted_data = encrypt(encoded_data, secret_key)
 
   write_file(file_path, encrypted_data)
-  execute("rm #{temp_file}")
 end

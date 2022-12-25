@@ -1,3 +1,6 @@
+# Ignore Mac Os file
+.DS_Store
+
 # Ignore secret notes
 notes/*
 
