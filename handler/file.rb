@@ -2,7 +2,7 @@ def read_file(file_path)
   file = File.open(file_path)
   if file
     data = file.read
-    return data
+    return data.chomp
   else
     puts "error: not able to access the file"
     return false
