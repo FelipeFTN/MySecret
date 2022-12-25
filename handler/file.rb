@@ -1,7 +1,7 @@
 def read_file(path)
-  file = File.new(path, "r")
+  file = File.open(path)
   if file
-    data = file.sysread(20)
+    data = file.read
     return data
   else
     puts "error: not able to access the file"
