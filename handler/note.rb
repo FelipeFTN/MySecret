@@ -28,9 +28,9 @@ def read_note(file_path, secret_key)
 end
 
 def encrypt_note(file_path, secret_key)
-  data = read_file(file_path)  
-  encoded_data = encode(data)
-  encrypted_data = encrypt(encoded_data, secret_key)
+  data = read_file(file_path)
+  encrypted_data = encrypt(data, secret_key)
+  encoded_data = encode(encrypted_data)
 
-  write_file(file_path, encrypted_data)
+  write_file(file_path, encoded_data)
 end
