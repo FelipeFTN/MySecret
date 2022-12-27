@@ -46,6 +46,6 @@ Select your favorite text editor:
 [1] VIM
 [2] NeoVim
 [3] Nano
->
+> | 1 | 2 | 3 |
 ```
 After saving and exiting from your file, your note will be automatically encoded and encrypted, and **you can access it from the MySecret's menu to decrypt and read it.**
