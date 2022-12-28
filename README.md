@@ -21,7 +21,7 @@ The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ru
 
 ## Usage/Examples
 
-MySecret's main menu looks like this, you can **create a new encrypted note**, **read an encrypted note**, **edit an encrypted note**, **encrypt a raw file** or **decrypt a encrypted file**
+MySecret's main menu looks like this, you can **create a new encrypted note**, **read an encrypted note**, **edit an encrypted note**, **encrypt a raw file**, **decrypt a encrypted file** or **change file password**.
 ```bash
 $ ruby ~/MySecret/main.rb
 
@@ -32,7 +32,8 @@ notes: 0; 1; 2; 3; 4; 5; 6;
 [3] Encrypt an existing note
 [4] Encrypt an existing note
 [5] Decrypt an existing note
-> | 1 | 2 | 3 | 4 | 5 |
+[6] Change secret key
+> | 1 | 2 | 3 | 4 | 5 | 6 |
 ```
 After that, it will ask you for a **secret key**, which is a file **password**. (MySecret will hash this password using **SHA-256**)<br>
 If it's your first time running **MySecret** you need to select a text editor to write down your file, select one of the options, and your text editor will magically open and you can **write all your notes safelly**.
@@ -46,6 +47,6 @@ Select your favorite text editor:
 [1] VIM
 [2] NeoVim
 [3] Nano
-> | 1 | 2 | 3 |
+> | 0 | 1 | 2 | 3 |
 ```
 After saving and exiting from your file, your note will be automatically encoded and encrypted, and **you can access it from the MySecret's menu to decrypt and read it.**
