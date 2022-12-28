@@ -1,1 +1,1 @@
-AES_IV = "MySecret"
+IV_ALGORITHM = "MySecret"

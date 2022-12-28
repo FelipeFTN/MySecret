@@ -44,6 +44,10 @@ def edit_note(file_path, secret_key)
   execute("mv #{temp_file} #{file_path}")
 end
 
+def delete_note(file_path, secret_key)
+  execute("rm #{file_path}")
+end
+
 def encrypt_note(file_path, secret_key)
   data = read_file(file_path)
   encrypted_data = encrypt(data, secret_key)
