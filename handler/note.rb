@@ -59,3 +59,8 @@ def decrypt_note(file_path, secret_key)
   
   write_file(file_path, decrypted_data)
 end
+
+def change_secret(file_path, old_secret_key, new_secret_key)
+  decrypt_note(file_path, old_secret_key)
+  encrypt_note(file_path, new_secret_key)
+end
