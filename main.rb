@@ -1,14 +1,19 @@
 require_relative "handler/cryptography"
+require_relative "handler/constants"
 require_relative "handler/system"
 require_relative "handler/file"
 require_relative "handler/note"
 
+# Create MySecret folder
+Dir.mkdir(MYSECRET_DIRECTORY) unless File.exists?(MYSECRET_DIRECTORY)
+Dir.mkdir(NOTES_DIRECTORY) unless File.exists?(NOTES_DIRECTORY)
+
 while true
   # List notes
-  notes = Dir.glob("notes/*")
+  notes = Dir.glob("#{NOTES_DIRECTORY}/*")
   print "notes: "
   notes.each do |note|
-    print "#{note.gsub! "notes/", ""}; "
+    print "#{note.gsub! "#{NOTES_DIRECTORY}/", ""}; "
   end
 
   # Display menu options

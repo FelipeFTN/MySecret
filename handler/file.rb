@@ -1,7 +1,9 @@
+require_relative "constants"
+
 def get_file()
   print "file name: "
   file_name = gets.chomp
-  file_path = "notes/#{file_name}"
+  file_path = "#{NOTES_DIRECTORY}/#{file_name}"
   return file_path
 end
 
