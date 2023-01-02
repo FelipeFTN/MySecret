@@ -45,6 +45,9 @@ def edit_note(file_path, secret_key)
 end
 
 def delete_note(file_path, secret_key)
+  decrypt_note(file_path, secret_key)
+  encrypt_note(file_path, secret_key)
+
   execute("rm #{file_path}")
 end
 

@@ -62,6 +62,7 @@ while true
   elsif option == 4
     # Get file name
     file_path = get_file()
+    secret_key = get_secret_key("deleting confirmation secret_key: ")
 
     delete_note(file_path, secret_key)
   elsif option == 5
