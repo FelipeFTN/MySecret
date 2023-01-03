@@ -6,7 +6,7 @@ It allows you to safe your notes with password, encryption and encoding.
 
 
 ## Features
-MySecurity uses tree layers of security:
+MySecret uses tree layers of security:
 - AES-256 Encryption
 - Base64 Encoding
 - SHA-256 Hashing
@@ -16,8 +16,13 @@ MySecurity uses tree layers of security:
 
 MySecret has a simple instalation in all operating systems.<br>
 Just downloading MySecret's latest release from [Releases page](https://github.com/FelipeFTN/MySecret/releases).<br>
-We highly recommend you to add an alias at your shell that will allows you to run MySecret just by typing: ```$ mysecret``` at your terminal.
-The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ruby-lang.org) installed.
+The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ruby-lang.org) installed.<br>
+We highly recommend you to [add an alias at your shell](https://linuxize.com/post/how-to-create-bash-aliases/) that will allows you to run MySecret just by typing: `$ mysecret` at your terminal.
+<div align="center">
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/80127749/210393450-cb1cd1ec-a0b3-4a8c-8ae1-0384240bd77c.png">
+</div>
+
+
 
 ## Usage/Examples
 
@@ -39,7 +44,7 @@ notes: 0; 1; 2; 3; 4; 5; 6;
 ```
 After that, it will ask you for a **secret key**, which is a file **password**. (MySecret will hash this password using **SHA-256**)<br>
 If it's your first time running **MySecret** you need to select a text editor to write down your file, select one of the options, and your text editor will magically open and you can **write all your notes safelly**.
-Your default editor will be saved at a configuration file located at _home/.config/MySecret_, you can delete it to reset your preference and choose another. _editor.config_
+Your default editor will be saved at a configuration file located at _home/.config/MySecret_, you can delete it to reset your preference and choose another. ```configuration file: editor.config```
 ```bash
 $ file name: MySecret
 $ secret key: MyPassword
