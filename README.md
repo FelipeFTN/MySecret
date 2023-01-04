@@ -17,7 +17,7 @@ MySecret uses tree layers of security:
 MySecret has a simple instalation in all operating systems.<br>
 Just downloading MySecret's latest release from [Releases page](https://github.com/FelipeFTN/MySecret/releases).<br>
 The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ruby-lang.org) installed.<br>
-We highly recommend you to [add an alias at your shell](https://linuxize.com/post/how-to-create-bash-aliases/) that will allows you to run MySecret just by typing: `$ mysecret` at your terminal.
+We highly recommend you to [add an alias at your shell](https://linuxize.com/post/how-to-create-bash-aliases/) that will allows you to run MySecret just by typing:<br> `$ mysecret` at your terminal.
 <div align="center">
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/80127749/210393450-cb1cd1ec-a0b3-4a8c-8ae1-0384240bd77c.png">
 </div>
