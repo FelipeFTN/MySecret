@@ -1,4 +1,5 @@
 require_relative "cryptography"
+require_relative "constants"
 require_relative "system"
 require_relative "file"
 require_relative "note"
@@ -47,5 +48,9 @@ def handler(option)
     new_secret_key = get_secret_key("new secret key: ")
 
     change_secret(file_path, secret_key, new_secret_key)
+  elsif option == 8
+    execute("rm -f #{EDITOR_PATH}")
+   
+    get_text_editor() 
   end
 end

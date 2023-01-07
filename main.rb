@@ -14,7 +14,7 @@ while true
   end
 
   # Display menu options
-  valid_options = [0, 1, 2, 3, 4, 5, 6, 7]
+  valid_options = [0, 1, 2, 3, 4, 5, 6, 7, 8]
   puts "\n========== MySecret =========="
   puts "[1] Create new note"
   puts "[2] Read a note"
@@ -23,6 +23,7 @@ while true
   puts "[5] Encrypt an existing note"
   puts "[6] Decrypt an existing note"
   puts "[7] Change secret key"
+  puts "[8] Change text editor"
   puts "[0] Exit"
   print "> "
   option = gets.chomp.to_i

@@ -2,4 +2,6 @@ MYSECRET_DIRECTORY = "#{Dir.home}/.config/MySecret"
 
 NOTES_DIRECTORY = "#{MYSECRET_DIRECTORY}/notes"
 
+EDITOR_PATH = "#{MYSECRET_DIRECTORY}/editor.config"
+
 IV_ALGORITHM = "MySecret"

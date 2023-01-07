@@ -2,11 +2,10 @@ require_relative "constants"
 require_relative "file"
 
 def get_text_editor()
-  text_editors = ["nano", "vim", "nvim", "vi", "emacs"]
-  text_editor_path = "#{MYSECRET_DIRECTORY}/editor.config"
+  text_editors = ["nano", "vi", "vim", "nvim", "emacs"]
 
-  if File.file?(text_editor_path)
-    editor = read_file(text_editor_path).chomp
+  if File.file?(EDITOR_PATH)
+    editor = read_file(EDITOR_PATH).chomp
     if text_editors.include?(editor)
       return editor
     end
@@ -22,7 +21,7 @@ def get_text_editor()
   print "> "
   text_editor = gets.chomp.to_i
   
-  write_file(text_editor_path, text_editors[text_editor])
+  write_file(EDITOR_PATH, text_editors[text_editor])
 
   return text_editors[text_editor]
 end
