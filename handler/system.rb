@@ -2,7 +2,7 @@ require_relative "constants"
 require_relative "file"
 
 def get_text_editor()
-  text_editors = ["vi", "vim", "nvim", "nano"]
+  text_editors = ["nano", "vim", "nvim", "vi", "emacs"]
   text_editor_path = "#{MYSECRET_DIRECTORY}/editor.config"
 
   if File.file?(text_editor_path)
@@ -14,10 +14,11 @@ def get_text_editor()
 
   puts "================================="
   puts "Select your favorite text editor:"
-  puts "[0] VI" 
-  puts "[1] VIM" 
-  puts "[2] NeoVim" 
-  puts "[3] Nano" 
+  puts "[0] Nano" 
+  puts "[1] VI" 
+  puts "[2] VIM" 
+  puts "[3] NeoVim" 
+  puts "[4] Emacs"
   print "> "
   text_editor = gets.chomp.to_i
   
