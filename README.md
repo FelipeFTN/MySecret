@@ -20,7 +20,7 @@ We highly recommend you to [add an alias at your shell](https://linuxize.com/pos
 
 ## Usage/Examples
 
-![demo-gif](https://github.com/FelipeFTN/MySecret/blob/master/demo.gif)
+https://user-images.githubusercontent.com/80127749/211131154-c7833698-8285-49fa-a6fd-4dc902a7433b.mov
 
 MySecret's main menu looks like this, you can **create a new encrypted note**, **read an encrypted note**, **edit an encrypted note**, **delete a note** **encrypt a raw file**, **decrypt a encrypted file**, **change file password** or **exit**.
 
