@@ -1,9 +1,7 @@
 
 # MySecret  
-
 MySecret is a secure note manager.<br>
 It allows you to safe your notes with password, encryption and encoding.
-
 
 ## Features
 MySecret uses tree layers of security:
@@ -11,9 +9,7 @@ MySecret uses tree layers of security:
 - Base64 Encoding
 - SHA-256 Hashing
 
-
 ## Installation
-
 MySecret has a simple instalation in all operating systems.<br>
 Just downloading MySecret's latest release from [Releases page](https://github.com/FelipeFTN/MySecret/releases).<br>
 The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ruby-lang.org) installed.<br>
@@ -22,11 +18,12 @@ We highly recommend you to [add an alias at your shell](https://linuxize.com/pos
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/80127749/210393450-cb1cd1ec-a0b3-4a8c-8ae1-0384240bd77c.png">
 </div>
 
-
-
 ## Usage/Examples
 
-MySecret's main menu looks like this, you can **create a new encrypted note**, **read an encrypted note**, **edit an encrypted note**, **delete a note** **encrypt a raw file**, **decrypt a encrypted file**, **change file password** or exit.
+![demo-gif](https://github.com/FelipeFTN/MySecret/blob/master/demo.gif)
+
+MySecret's main menu looks like this, you can **create a new encrypted note**, **read an encrypted note**, **edit an encrypted note**, **delete a note** **encrypt a raw file**, **decrypt a encrypted file**, **change file password** or **exit**.
+
 ```bash
 $ ruby ~/MySecret/main.rb
 
