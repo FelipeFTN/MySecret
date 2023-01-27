@@ -1,4 +1,6 @@
-MYSECRET_DIRECTORY = "#{Dir.home}/.config/MySecret"
+CONFIG_DIRECTORY = "#{Dir.home}/.config"
+
+MYSECRET_DIRECTORY = "#{CONFIG_DIRECTORY}/MySecret"
 
 NOTES_DIRECTORY = "#{MYSECRET_DIRECTORY}/notes"
 
