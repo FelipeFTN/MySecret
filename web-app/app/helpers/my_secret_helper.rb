@@ -1,0 +1,2 @@
+module MySecretHelper
+end
