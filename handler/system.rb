@@ -2,7 +2,7 @@ require_relative "constants"
 require_relative "file"
 
 def get_text_editor()
-  text_editors = ["nano", "vi", "vim", "nvim", "emacs"]
+  text_editors = ["nano", "vi", "vim", "nvim", "emacs", "notepad"]
 
   if File.file?(EDITOR_PATH)
     editor = read_file(EDITOR_PATH).chomp
@@ -18,6 +18,7 @@ def get_text_editor()
   puts "[2] VIM" 
   puts "[3] NeoVim" 
   puts "[4] Emacs"
+  puts "[5] Windows notepad"
   print "> "
   text_editor = gets.chomp.to_i
   
