@@ -1,0 +1,144 @@
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:32:13 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 559)
+  Rendered layout layouts/application.html.erb (Duration: 320.5ms | Allocations: 78244)
+Completed 200 OK in 356ms (Views: 332.9ms | ActiveRecord: 0.0ms | Allocations: 85465)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:36:49 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 52.0ms | Allocations: 22598)
+  Rendered layout layouts/application.html.erb (Duration: 54.7ms | Allocations: 23672)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 24826)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:38:11 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2256)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4903)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 5233)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:38:13 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1066)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1912)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 2215)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:39:00 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2234)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4970)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 5273)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:39:10 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1103)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 1988)
+Completed 200 OK in 35ms (Views: 34.4ms | Allocations: 2291)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:39:28 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 20.7ms | Allocations: 2245)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 4993)
+Completed 200 OK in 65ms (Views: 58.9ms | Allocations: 5300)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:40:18 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 2257)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 5005)
+Completed 200 OK in 21ms (Views: 20.7ms | Allocations: 5308)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:40:19 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1051)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1897)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2200)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:40:39 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2256)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 5006)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 5309)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:43:58 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2260)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5007)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 5310)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:44:06 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2272)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5023)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 5331)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:44:09 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1088)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1973)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2276)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:44:30 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2255)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 5002)
+Completed 200 OK in 23ms (Views: 22.7ms | Allocations: 5305)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:45:11 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1575)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2685)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 3776)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-19 01:51:30 -0300
+Processing by MySecretController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering my_secret/index.html.erb within layouts/application
+  Rendered my_secret/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2348)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5104)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 5423)
+
+
