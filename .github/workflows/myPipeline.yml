@@ -1,0 +1,43 @@
+name: "🍷 MySecret"
+
+on:
+  push:
+    branches: [ "rails" ]
+  pull_request:
+    branches: [ "rails" ]
+
+jobs:
+  analyze:
+    name: 🔎 Analyze
+    runs-on: ${{ matrix.os }}
+
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    strategy:
+      fail-fast: true
+      matrix:
+        language: [ 'ruby' ]
+        os: [ubuntu-latest]
+
+    steps:
+    - name: 🧿 Checkout repository
+      uses: actions/checkout@v3
+
+    - name: ⚡ Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: ${{ matrix.language }}
+        
+    - name: 🪄 Build
+      uses: github/codeql-action/autobuild@v2
+
+    # - name: 🔮 Code review
+    #   uses: moneyforward/rails_best_practices-action@v0.0.1
+
+    - name: ✨ Code Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        category: "/language:${{matrix.language}}"
