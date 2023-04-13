@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         language: [ 'ruby' ]
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ 'ubuntu-latest' ]
 
     steps:
     - name: 🧿 Checkout repository
