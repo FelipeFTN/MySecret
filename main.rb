@@ -2,9 +2,9 @@ require_relative "handler/constants"
 require_relative "handler/main"
 
 # Create MySecret folder
-Dir.mkdir(CONFIG_DIRECTORY) unless File.exists?(CONFIG_DIRECTORY)
-Dir.mkdir(MYSECRET_DIRECTORY) unless File.exists?(MYSECRET_DIRECTORY)
-Dir.mkdir(NOTES_DIRECTORY) unless File.exists?(NOTES_DIRECTORY)
+Dir.mkdir(CONFIG_DIRECTORY) unless File.exist?(CONFIG_DIRECTORY)
+Dir.mkdir(MYSECRET_DIRECTORY) unless File.exist?(MYSECRET_DIRECTORY)
+Dir.mkdir(NOTES_DIRECTORY) unless File.exist?(NOTES_DIRECTORY)
 
 while true
   # List notes
