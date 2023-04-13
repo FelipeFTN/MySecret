@@ -34,7 +34,7 @@ After that, it will ask you for a **secret key**, which is a file **password**. 
 If it's your first time running **MySecret** you need to select a text editor to write down your file, select one of the options, and your text editor will magically open and you can **write all your notes safelly**.
 Your default editor will be saved at a configuration file located at _home/.config/MySecret_, you can delete it to reset your preference and choose another. ```configuration file: editor.config```
 ```bash
-$ file name: MySecret
+file name: MySecret
 $ secret key: MyPassword
 =================================
 Select your favorite text editor:
@@ -50,9 +50,10 @@ After saving and exiting from your file, your note will be automatically encoded
 MySecret has a simple instalation in all operating systems.<br>
 Just downloading MySecret's latest release from [Releases page](https://github.com/FelipeFTN/MySecret/releases).<br>
 The only **requirement for MySecret** to run in your PC is [Ruby](https://www.ruby-lang.org) installed.<br>
-We highly recommend you to [add an alias at your shell](https://linuxize.com/post/how-to-create-bash-aliases/) that will allows you to run MySecret just by typing:<br> `$ mysecret` at your terminal.
+We highly recommend you to [add an alias at your shell](https://linuxize.com/post/how-to-create-bash-aliases/) that will allows you to run MySecret just by typing:<br> `$ mysecret` at your terminal. But you still can run it simply typing ```$ ruby main.rb```
 <div align="center">
-<img width="556" alt="image" src="https://user-images.githubusercontent.com/80127749/210393450-cb1cd1ec-a0b3-4a8c-8ae1-0384240bd77c.png">
+
+![image](https://user-images.githubusercontent.com/80127749/231796943-b7364be0-a521-4755-a502-f4e9ae843861.png)
 </div>
 
 ## Contributing
