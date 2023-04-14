@@ -1,9 +1,9 @@
 require_relative "constants"
+require_relative "display"
 require_relative "file"
 
 def get_text_editor()
   text_editors = ["nano", "vi", "vim", "nvim", "emacs", "notepad"]
-
   if File.file?(EDITOR_PATH)
     editor = read_file(EDITOR_PATH).chomp
     if text_editors.include?(editor)
@@ -11,17 +11,8 @@ def get_text_editor()
     end
   end
 
-  puts "================================="
-  puts "Select your favorite text editor:"
-  puts "[0] Nano" 
-  puts "[1] VI" 
-  puts "[2] VIM" 
-  puts "[3] NeoVim" 
-  puts "[4] Emacs"
-  puts "[5] Windows notepad"
-  print "> "
+  display_text_editor()
   text_editor = gets.chomp.to_i
-  
   write_file(EDITOR_PATH, text_editors[text_editor])
 
   return text_editors[text_editor]
@@ -34,4 +25,21 @@ def execute(command, pause=false)
     print "\nPress enter to proceed"
     gets
   end
+end
+
+def validate_options(option)
+  valid_options = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+  is_valid = valid_options.include? option
+  if !is_valid
+    puts "error: invalid option" 
+    return false
+  elsif option == 0 
+    return false
+  end
+  return true
+end
+
+def options_menu()
+  display_menu()
+  option = gets.chomp.to_i
 end
