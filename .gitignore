@@ -1,8 +1,9 @@
-# Ignore Mac Os file
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
 .DS_Store
-
-# Ignore secret notes
-notes/*
-
-# Text editor configuration file
-editor.config
