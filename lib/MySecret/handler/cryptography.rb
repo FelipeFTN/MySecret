@@ -1,4 +1,5 @@
 require_relative "constants"
+
 require "openssl"
 require "digest"
 

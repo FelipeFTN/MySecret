@@ -6,7 +6,7 @@ require_relative "file"
 def write_note(file_path, secret_key)
   editor = get_text_editor()
   execute("#{editor} #{file_path}")
-  
+
   data = read_file(file_path)
   encrypted_data = encrypt(data, secret_key)
   encoded_data = encode(encrypted_data)
@@ -18,7 +18,7 @@ def read_note(file_path, secret_key)
   data = read_file(file_path)
   decoded_data = decode(data)
   decrypted_data = decrypt(decoded_data, secret_key)
-  
+
   temp_file = "#{file_path}.temp"
   write_file(temp_file, decrypted_data)
 
@@ -63,7 +63,7 @@ def decrypt_note(file_path, secret_key)
   data = read_file(file_path)
   decoded_data = decode(data)
   decrypted_data = decrypt(decoded_data, secret_key)
-  
+
   write_file(file_path, decrypted_data)
 end
 

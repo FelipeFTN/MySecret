@@ -8,7 +8,6 @@ require_relative "MySecret/handler/main"
 
 module MySecret
   class Error < StandardError; end
-
   def self.run()
     # Create MySecret folder
     Dir.mkdir(CONFIG_DIRECTORY) unless File.exist?(CONFIG_DIRECTORY)

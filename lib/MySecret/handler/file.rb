@@ -1,5 +1,6 @@
 require_relative "constants"
 
+
 def get_file()
   print "file name: "
   file_name = gets.chomp
