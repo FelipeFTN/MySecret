@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "MySecret/handler/constants"
+require_relative "MySecret/constants"
 require_relative "MySecret/version"
-require_relative "MySecret/handler/display"
-require_relative "MySecret/handler/system"
-require_relative "MySecret/handler/main"
+require_relative "MySecret/display"
+require_relative "MySecret/system"
+require_relative "MySecret/main"
 
 module MySecret
   class Error < StandardError; end
