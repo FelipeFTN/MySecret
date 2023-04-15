@@ -6,4 +6,5 @@
 /pkg/
 /spec/reports/
 /tmp/
-.DS_Store
+**/.DS_Store
+**/MySecret-*.gem
